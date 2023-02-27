@@ -1,0 +1,516 @@
+@font-face {
+    font-family: 'titr';
+    src: url("../fonts/titr.ttf");
+}
+
+@font-face {
+    font-family: 'iranNastaliq';
+    src: url("../fonts/iranNastaliq.ttf");
+}
+
+@font-face {
+    font-family: 'nazanin';
+    src: url("../fonts/bNazanin.ttf");
+}
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/IRANSans(FaNum).ttf');
+    src:  url('../fonts/IRANSans(FaNum)_Light.ttf') format('truetype'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/IRANSans(FaNum)_Medium.ttf') format('truetype'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans(FaNum)_UltraLight.ttf') format('truetype');
+}
+body{
+    margin: 0 0;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-image: url("../img/header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header .header-title{
+    font-family: iranNastaliq, serif;
+    color: #000;
+}
+
+.header .header-text{
+    font-family: IRANSans, serif;
+    color: #000;
+}
+.banner-section{
+    font-family: titr, serif;
+}
+
+.banner-section .menu-button{
+    width: 100%;
+    padding: 20px 12px;
+    border-radius: 20px;
+}
+.banner-section .banner{
+    height: 450px;
+    background-image: url("../img/main-banner.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-section .right-banner-item{
+    height: 450px;
+    background-image: url("../img/right-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.banner-section .left-banner-item{
+    height: 450px;
+    background-image: url("../img/left-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.form-section{
+    background: #002752;
+    height: auto;
+}
+
+.form-section h4{
+    font-family: titr, serif;
+    color: #fff;
+    margin-top: 35px;
+}
+
+.form-section input{
+    font-family: IRANSans, serif;
+}
+
+.form-section label{
+    font-family: IRANSans, serif;
+    font-weight: 600;
+}
+
+.form-section .submit-btn{
+    font-family: titr, serif;
+    font-weight: 600;
+    border-radius:50%;
+    height:70px;
+    width: 200px;
+    margin-top: 50px;padding-top: 20px;
+}
+
+.form-section .enmad-box{
+
+    margin-top: 229px;
+}
+.about-section{
+    padding: 0px 35px;
+    direction: rtl;
+    text-align: right;
+    font-family: titr, serif;
+}
+.about-section h4{
+    text-align: center;
+    font-family: titr, serif;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.about-section p{
+    text-align: center;
+    font-family:nazanin, serif;
+    margin-top: 25px;
+    font-size: 25px;
+    width: 80%;
+    font-weight: 300;
+}
+.sidebar{
+    background: #000;
+    height: auto;
+    color: #fff;
+    font-family: titr, serif;
+    padding-right: 0;
+    padding-bottom: 230px;
+}
+
+.sidebar ul{
+    width: 100%;
+    padding-left: 0px;
+}
+
+.sidebar ul .list-group-item{
+    background: transparent;
+    text-align: right;
+    font-size: 15px;
+}
+
+.sidebar ul li i{
+    font-size: 24px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.sidebar  .list-group-item .active{
+    background: rgba(255, 255, 255, 0.68)!important;
+    color: #000!important;
+    border: none!important;
+}
+
+.top-menu .top-menu-right{
+    text-align: right;
+    direction: rtl;
+}
+.top-menu .top-menu-left{
+    text-align: right;
+    direction: rtl;
+    font-family: titr, serif;
+    padding: 0 50px;
+}
+
+.top-menu .top-menu-right a{
+    color: black;
+    text-decoration: none;
+    font-family: IRANSans, serif;
+}
+
+.top-menu .top-menu-right a i{
+    margin-left: 5px;
+    font-size: 20px;
+}
+.top-menu .top-menu-left .logout-btn{
+    font-family: titr, serif;
+    font-weight: 600;
+    border-radius:50%;
+    height:55px;
+    width: 100px;
+    color: black;
+    background: rgba(55, 52, 52, 0.84);
+}
+.top-menu .top-menu-left span{
+    margin-top: 20px;
+}
+.dashboard .dashboard-content{
+    background: rgba(209, 204, 204, 0.68);
+    height: auto;
+    border-radius: 25px;
+    padding: 0 30px;
+
+}
+
+.dashboard .dashboard-content .light-box{
+    background: #fff;
+    height: 150px;
+    width: 200px;
+    margin: 40px 25px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.dashboard .dashboard-content .light-box h4{
+    font-family: titr, serif;
+}
+
+.dashboard .dashboard-content .item-button{
+    font-family: titr, serif;
+    background: rgb(229, 229, 229);
+    border-radius: 8px;
+    padding: 15px 0;
+}
+
+.register-description{
+    height: 550px;
+    background: #d1d0d0;
+    padding-top: 35px;
+    font-family: IRANSans, serif;
+}
+.register-description p{
+    padding-top: 30px;
+    text-align: right;
+}
+.register-form form{
+    direction: rtl;
+    text-align: right;
+    font-family: IRANSans, serif;
+    margin-top: 20px;
+}
+
+.register-form .form-title-section{
+    direction: rtl;
+    text-align: right;
+    font-family: IRANSans, serif;
+    margin-top: 20px;
+    height: 110px;
+    background: #d1d0d0;
+
+}
+
+.register-form .form-title-section .title-content{
+    direction: rtl;
+    font-family: IRANSans, serif;
+    height: 55px;
+    position: inherit;
+    background: #000;
+    color: #fff;
+    width: 250px;
+    border-top-left-radius: 25px;
+    margin-top: auto;
+    bottom: 0;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.register-form  .upload-btn{
+    width: 50%;
+    padding: 5px 10px;
+    border-radius: 25px;
+
+}
+.navbar{
+    direction: rtl;
+    text-align: right;
+    margin: 20px 0;
+    font-family: IRANSans, serif;
+}
+.navbar .nav-menu{
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    text-align: right;
+
+}
+
+.navbar .logout-btn{
+    font-family: IRANSans, serif;
+    font-weight: 600;
+    border-radius:30px;
+    height:40px;
+    width: 150px;
+    color: #fff;
+    background: rgba(55, 52, 52, 0.84);
+}
+
+.navbar .logout-btn i{
+    margin-left: 7px;
+}
+.notification{
+    height: 50px;
+    border-radius: 15px;
+    padding: 0 50px;
+    font-family: IRANSans, serif;
+
+}
+
+.notification .notification-title{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-family: IRANSans, serif;
+
+}
+
+.content{
+    padding: 20px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.77);
+    border-radius: 15px;
+}
+
+
+.stocks-box{
+    margin-bottom: 110px;
+}
+.stocks-form{
+    font-family: "IRANSans";
+    direction: rtl;
+    text-align: right;
+}
+
+#installments_table{
+    display: none;
+}
+
+.gateway-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 11px;
+    border: 1px solid #000;
+}
+.terms{
+    margin: 25px 0;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.terms label{
+    font-size: 18px;
+}
+.invoice_description{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: IRANSans, serif;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: right;
+    border-radius: 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    justify-content: center;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+#cash_table{
+    direction: rtl;
+}
+
+.profile{
+    text-align: right;
+    direction: rtl;
+    font-family: IRANSans, serif;
+}
+ pre{
+     font-family: IRANSans, serif;!important;
+     font-size: 24px;
+     overflow-y: visible;
+ }
+
+
+.register-btn{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #005cbf;
+    color: #000;
+    padding: 20px 15px;
+    margin: 50px 0;
+    text-decoration: none;
+
+}
+.user-submit-form{
+    border-radius: 15px;
+    border: 1px solid #000;
+    padding: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    font-family: "titr", serif;
+}
+.menu-item{
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.menu-item a{
+    text-decoration: none;
+    color: #000;
+}
+.menu-btn{
+    display: none;
+    border: none;
+}
+@media all and (max-width: 1555px){
+    .menu .menu-item{
+        padding: 10px;
+    }
+}
+
+@media all and (max-width: 620px){
+    .content{
+        margin-top: 100px;
+    }
+    .content-h1{
+        font-size: 1.5rem;
+    }
+    .contact-section{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1315px){
+    .menu .menu-item{
+        margin: 10px 2px;
+        padding: 10px 7px;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    .menu-btn{
+        display: block;
+        font-size: 30px;
+    }
+    .menu{
+        display: none;
+        direction: rtl;
+    }
+}
+
+#close-menu-btn{
+    display: none;
+}
+
+.articles-box{
+    border-radius: 12px;
+    border: 1px solid #000;
+    height: auto;
+    padding: 15px;
+    direction: rtl;
+    color: #0c0c0c;
+    margin-top: 20px;
+}
+.articles-box .articles-img{
+    border-radius: 12px;
+
+}
+
+.articles-box:hover{
+    text-decoration: none;
+    color: #0c0c0c;
+}
+
+.articles-box span:hover{
+    color: #2f82d3;
+}
